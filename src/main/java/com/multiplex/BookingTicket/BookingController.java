@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="http://18.136.65.50:9010")
 @RestController
 public class BookingController {
 	@Autowired
